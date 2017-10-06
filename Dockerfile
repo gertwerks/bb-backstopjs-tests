@@ -84,7 +84,7 @@ ADD 2012_backstop.js /src
 # xvfb wrapper
 COPY xvfb-run /usr/bin/xvfb-run
 
-WORKDIR /src
+WORKDIR /root/workspace/Xanadu/backstopjs
 
 ENTRYPOINT ["backstop"]
 
