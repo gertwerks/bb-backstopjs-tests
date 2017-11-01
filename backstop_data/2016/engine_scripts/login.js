@@ -5,5 +5,5 @@ module.exports = function (engine, scenario, vp) {
     document.getElementById("password").value="ui-admin";
     document.login.submit();
   });
-  console.log('LOGGGGGGGIIIIIINNNNNNGGGGGGGGGGG INNNNNNNNNN');
+  console.log('LOCAL LOCAL LOCAL LOGGGGGGGIIIIIINNNNNNGGGGGGGGGGG INNNNNNNNNN');
 };

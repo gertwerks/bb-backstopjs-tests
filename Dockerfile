@@ -77,14 +77,14 @@ RUN \
 	dbus \
 	xvfb
 	
-ADD  backstop_data /src
+ADD backstop_data /src
 ADD 2016_backstop.js /src
 ADD 2012_backstop.js /src
 
 # xvfb wrapper
 COPY xvfb-run /usr/bin/xvfb-run
 
-WORKDIR /root/workspace/Xanadu/backstopjs
+WORKDIR /src
 
 ENTRYPOINT ["backstop"]
 
